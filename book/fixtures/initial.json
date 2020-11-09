@@ -1,0 +1,66 @@
+[
+  {
+    "model": "book.author",
+    "pk": 1,
+    "fields": {
+      "name": "Пушкин",
+      "country": "Россия"
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 2,
+    "fields": {
+      "name": "Лермонтов",
+      "country": "Россия"
+    }
+  },
+  {
+    "model": "book.author",
+    "pk": 3,
+    "fields": {
+      "name": "Шекспир",
+      "country": "Англия"
+    }
+  },
+  {
+    "model": "book.book",
+    "pk": 1,
+    "fields": {
+      "title": "Дубровский",
+      "description": "Книга об одном парне",
+      "url": "https://ilibrary.ru/text/479/index.html",
+      "author_id": "1"
+    }
+  },
+  {
+    "model": "book.Book",
+    "pk": 2,
+    "fields": {
+      "title": "Капитанская дочка",
+      "description": "Морской роман",
+      "url": "https://ilibrary.ru/text/107/index.html",
+      "author_id": "1"
+    }
+  },
+  {
+    "model": "book.Book",
+    "pk": 3,
+    "fields": {
+      "title": "Герой нашего времени",
+      "description": "Во всякой книге предисловие есть первая и вместе с тем последняя вещь",
+      "url": "https://ilibrary.ru/text/12/index.html",
+      "author_id": "2"
+    }
+  },
+  {
+    "model": "book.Book",
+    "pk": 4,
+    "fields": {
+      "title": "Ромео и Джульета",
+      "description": "Любовная пьеса",
+      "url": "https://mybook.ru/author/uilyam-shekspir/romeo-i-dzhuletta/read/",
+      "author_id": "3"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "model": "userprofile.profile",
+    "pk": 1,
+    "fields": {
+      "user_id": 1,
+      "token": "0c302b15-39c0-4cfc-8f99-2c56b8d61b97"
+    }
+  },
+  {
+    "model": "userprofile.profile",
+    "pk": 2,
+    "fields": {
+      "user_id": 2,
+      "token": "ab67b9c2-be22-4c80-a6b8-d4381aaba9a6"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "John",
+      "password": "12dsfEds"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "Anna",
+      "password": "as7Jdhy"
+    }
+  }
+]
