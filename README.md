@@ -1,5 +1,4 @@
 # Book Market
-Python, Django Rest Framework
 
 RESTful API service for e-commerce
 
