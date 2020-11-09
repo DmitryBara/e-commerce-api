@@ -27,9 +27,9 @@ Application will be available at http://127.0.0.1:8000/
 
 `POST /api/userprofile/create/`
 
-Создание нового пользователя. В теле запроса указать username, password
-
 http://localhost:8000/api/userprofile/create/
+
+Создание нового пользователя. В теле запроса указать username, password
 
 `GET /api/userprofile/all`
 
@@ -45,9 +45,9 @@ http://localhost:8000/api/userprofile/2
 
 `POST /api/userprofile/subscribe/`
 
-Создание подписки для пользователя. В теле запроса указать profile_id для которого создается подписка
-
 http://localhost:8000/api/userprofile/subscribe/
+
+Создание подписки для пользователя. В теле запроса указать profile_id для которого создается подписка
 
 `GET /api/book/{book_id}/?token=`
 
